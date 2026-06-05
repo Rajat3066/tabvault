@@ -173,9 +173,18 @@ async function scrapeTournament(rawUrl) {
   const base = baseUrl(subdomain, slug)
 
   const browser = await puppeteer.launch({
-    headless: 'new',
-    args: ['--no-sandbox', '--disable-setuid-sandbox'],
-  })
+  headless: 'new',
+  executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || null,
+  args: [
+    '--no-sandbox',
+    '--disable-setuid-sandbox',
+    '--disable-dev-shm-usage',
+    '--disable-gpu',
+    '--no-first-run',
+    '--no-zygote',
+    '--single-process',
+  ],
+})
 
   let tournament = null
   let tid = null
