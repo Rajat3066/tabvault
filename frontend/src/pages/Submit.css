@@ -1,0 +1,27 @@
+.submit-page { min-height: 100vh; background: var(--bg); display: flex; align-items: center; justify-content: center; padding: 40px 24px; }
+.submit-card { width: 100%; max-width: 560px; padding: 40px; }
+.submit-back { display: inline-block; font-size: 13px; color: var(--text-secondary); margin-bottom: 28px; text-decoration: none; }
+.submit-back:hover { color: var(--accent); text-decoration: none; }
+.submit-icon { font-size: 40px; margin-bottom: 12px; }
+.submit-title { font-size: 26px; font-weight: 800; margin-bottom: 8px; }
+.submit-desc { color: var(--text-secondary); font-size: 14px; margin-bottom: 28px; line-height: 1.6; }
+.submit-input-wrap { display: flex; gap: 10px; margin-bottom: 12px; }
+.submit-input { flex: 1; padding: 10px 14px; border: 1px solid var(--border); border-radius: 8px; font-size: 14px; font-family: inherit; outline: none; transition: border-color 0.15s; }
+.submit-input:focus { border-color: var(--accent); }
+.submit-input:disabled { background: var(--bg); }
+.submit-btn { padding: 10px 22px; background: var(--accent); color: white; border: none; border-radius: 8px; font-size: 14px; font-weight: 600; font-family: inherit; cursor: pointer; white-space: nowrap; transition: opacity 0.15s; }
+.submit-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.submit-btn:not(:disabled):hover { opacity: 0.88; }
+.submit-error { font-size: 13px; color: var(--loss); margin-bottom: 16px; }
+.submit-result { display: flex; gap: 14px; padding: 16px 20px; border-radius: 8px; margin-bottom: 24px; align-items: flex-start; }
+.submit-result.success { background: #f0fdf4; border: 1px solid #bbf7d0; }
+.submit-result.duplicate { background: #fefce8; border: 1px solid #fde68a; }
+.submit-result.error { background: #fef2f2; border: 1px solid #fecaca; }
+.submit-result-icon { font-size: 22px; flex-shrink: 0; margin-top: 1px; }
+.submit-result-title { font-weight: 600; font-size: 14px; margin-bottom: 3px; }
+.submit-result-sub { font-size: 13px; color: var(--text-secondary); margin-bottom: 8px; }
+.submit-result-link { font-size: 13px; font-weight: 600; color: var(--accent); }
+.submit-guide { border-top: 1px solid var(--border); padding-top: 20px; margin-top: 8px; }
+.submit-guide-title { font-weight: 600; font-size: 13px; margin-bottom: 10px; }
+.submit-guide ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+.submit-guide li { font-size: 13px; color: var(--text-secondary); }

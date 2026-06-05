@@ -1,0 +1,358 @@
+MODALS: [
+  {
+    "tag": "BUTTON",
+    "html": "<button class=\"btn btn-link mr-2 p-0 navbar-brand dropdown-toggle\" id=\"tournamentdrop\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n        \n          <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"33\" height=\"33\" viewBox=\"0 0 256 256\">\n  <defs><style>.a{fill:none;}.b{opacity:0.5;}.c{fill:#fff;}.d{clip-path:url(#a);}.e{fill:url(#b);}.f{fill:#e8e8e8;}.g{opacity:0.33;}.h{fill:#333;}</style><clipPath id=\"a\"><circle class=\"a\" cx=\"128\" "
+  },
+  {
+    "tag": "BUTTON",
+    "html": "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapsed-main-nav\" aria-controls=\"collapsed-main-nav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>"
+  },
+  {
+    "tag": "A",
+    "html": "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"roundsDrop\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n       Results\n    </a>"
+  },
+  {
+    "tag": "A",
+    "html": "<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"breakdrop\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n      Break\n    </a>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n        balance inconclusive\n      </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n          balance inconclusive\n        </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n        balance inconclusive\n      </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n          balance inconclusive\n        </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n        balance inconclusive\n      </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n          balance inconclusive\n        </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n        balance inconclusive\n      </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n          balance inconclusive\n        </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n        balance inconclusive\n      </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n          balance inconclusive\n        </div>"
+  },
+  {
+    "tag": "SPAN",
+    "html": "<span class=\"h6 badge badge-light text-secondary mx-auto mb-3 mt-0 hover-target\" data-toggle=\"modal\" data-target=\"#info_52091\">\n            View Info Slide\n          </span>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"modal fade\" id=\"info_52091\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"\" aria-hidden=\"true\">\n  <div class=\"modal-dialog modal-dialog-centered modal-lg text-left\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\">Info Slide</h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">×</span>\n        </button>\n      </div>\n      <div class=\"modal-body lead\""
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n        balance inconclusive\n      </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n          balance inconclusive\n        </div>"
+  },
+  {
+    "tag": "SPAN",
+    "html": "<span class=\"h6 badge badge-light text-secondary mx-auto mb-3 mt-0 hover-target\" data-toggle=\"modal\" data-target=\"#info_52092\">\n            View Info Slide\n          </span>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"modal fade\" id=\"info_52092\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"\" aria-hidden=\"true\">\n  <div class=\"modal-dialog modal-dialog-centered modal-lg text-left\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\">Info Slide</h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">×</span>\n        </button>\n      </div>\n      <div class=\"modal-body lead\""
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n        balance inconclusive\n      </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n          balance inconclusive\n        </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n        balance inconclusive\n      </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n          balance inconclusive\n        </div>"
+  },
+  {
+    "tag": "SPAN",
+    "html": "<span class=\"h6 badge badge-light text-secondary mx-auto mb-3 mt-0 hover-target\" data-toggle=\"modal\" data-target=\"#info_52107\">\n            View Info Slide\n          </span>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"modal fade\" id=\"info_52107\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"\" aria-hidden=\"true\">\n  <div class=\"modal-dialog modal-dialog-centered modal-lg text-left\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\">Info Slide</h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">×</span>\n        </button>\n      </div>\n      <div class=\"modal-body lead\""
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n        balance inconclusive\n      </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n          balance inconclusive\n        </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n        balance inconclusive\n      </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n          balance inconclusive\n        </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n        balance inconclusive\n      </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n          balance inconclusive\n        </div>"
+  },
+  {
+    "tag": "SPAN",
+    "html": "<span class=\"h6 badge badge-light text-secondary mx-auto mb-3 mt-0 hover-target\" data-toggle=\"modal\" data-target=\"#info_52119\">\n            View Info Slide\n          </span>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"modal fade\" id=\"info_52119\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"\" aria-hidden=\"true\">\n  <div class=\"modal-dialog modal-dialog-centered modal-lg text-left\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\">Info Slide</h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">×</span>\n        </button>\n      </div>\n      <div class=\"modal-body lead\""
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n        balance inconclusive\n      </div>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"col-auto h6 text-muted\" data-toggle=\"tooltip\" title=\"\" data-original-title=\"too few debates to get a meaningful statistic\">\n        balance inconclusive\n      </div>"
+  },
+  {
+    "tag": "A",
+    "html": "<a class=\"nav-link p-0 d-inline-block\" href=\"#\" data-toggle=\"modal\" data-target=\"#setLanguageModal\">\n              \n              Language \n            </a>"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"modal fade\" id=\"setLanguageModal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n  <div class=\"modal-dialog modal-dialog-centered\" role=\"document\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\">Change Language</h5>\n        <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n          <span aria-hidden=\"true\">×</span>\n        </button>\n      </div>\n      <div class=\"modal-body\">\n        <form action=\"/i18n/se"
+  },
+  {
+    "tag": "DIV",
+    "html": "<div class=\"modal fade\" id=\"modalAlert\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n      <div class=\"modal-dialog modal-dialog-centered modal-lg\">\n        <div class=\"modal-content\">\n          <div class=\"modal-header h4 text-center\"></div>\n          <div class=\"modal-body\"></div>\n        </div>\n      </div>\n    </div>"
+  }
+]
+INFO CONTEXT: GOV VETOES 1 OPP VETO
+BALANCE INCONCLUSIVE
+Round 3
+THS the rise of Pop Feminism (Pop Feminism)
+VIEW INFO SLIDE
+30%
+0 GOV WINS 3 OPP WINS
+BALANCE INCONCLUSIVE
+35%
+7 GOV VETOES 0 OPP VETOES
+BALANCE INCONCLUSIVE
+THP a world with leaderless social justice movements (Social Justice)
+VIEW INFO SLIDE
+20%
+10%
+2 GOV WINS 1 OPP WIN
+BALANCE INCONCLUSIVE
+15%
+20%
+3 GOV VETOES 4 OPP VETOES
+BALANCE INCONCLUSIVE
+TH, as a woman, would choose to not make cosmetic alterations to her appearance, such as makeup, shaving, or plastic surgeries (Cosmetic Surgery)
+10%
+30%
+1 GOV WIN 3 OPP WINS
+BALANCE INCONCLUSIVE
+30%
+
+ANCHORS: [
+  {
+    "text": "Pratijja v19",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/",
+    "dataToggle": null
+  },
+  {
+    "text": "Pratijja v20",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v20/",
+    "dataToggle": null
+  },
+  {
+    "text": "Vivaad 3.0",
+    "href": "https://pratijjav19.calicotab.com/vivaad3/",
+    "dataToggle": null
+  },
+  {
+    "text": "East India Pre-Worlds",
+    "href": "https://pratijjav19.calicotab.com/EastIndiaPre-Worlds/",
+    "dataToggle": null
+  },
+  {
+    "text": "Pratijja v21",
+    "href": "https://pratijjav19.calicotab.com/pratijjav21/",
+    "dataToggle": null
+  },
+  {
+    "text": "Site Home",
+    "href": "https://pratijjav19.calicotab.com/",
+    "dataToggle": null
+  },
+  {
+    "text": "Team Tab",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/tab/team/",
+    "dataToggle": null
+  },
+  {
+    "text": "Speaker Tab",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/tab/speaker/",
+    "dataToggle": null
+  },
+  {
+    "text": "Replies Tab",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/tab/replies/",
+    "dataToggle": null
+  },
+  {
+    "text": "Motions Tab",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/motions/statistics/",
+    "dataToggle": null
+  },
+  {
+    "text": "Results",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/motions/statistics/#",
+    "dataToggle": "dropdown"
+  },
+  {
+    "text": "Round 1",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/results/round/1/",
+    "dataToggle": null
+  },
+  {
+    "text": "Round 2",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/results/round/2/",
+    "dataToggle": null
+  },
+  {
+    "text": "Round 3",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/results/round/3/",
+    "dataToggle": null
+  },
+  {
+    "text": "Round 4",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/results/round/4/",
+    "dataToggle": null
+  },
+  {
+    "text": "Semi-Finals",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/results/round/5/",
+    "dataToggle": null
+  },
+  {
+    "text": "Grand Finals",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/results/round/6/",
+    "dataToggle": null
+  },
+  {
+    "text": "Break",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/motions/statistics/#",
+    "dataToggle": "dropdown"
+  },
+  {
+    "text": "Open",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/break/teams/open/",
+    "dataToggle": null
+  },
+  {
+    "text": "Adjudicators",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/break/adjudicators/",
+    "dataToggle": null
+  },
+  {
+    "text": "Participants",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/participants/list/",
+    "dataToggle": null
+  },
+  {
+    "text": "Login",
+    "href": "https://pratijjav19.calicotab.com/accounts/login/",
+    "dataToggle": null
+  },
+  {
+    "text": "a donation of $20",
+    "href": "https://opencollective.com/tabbycat/contribute/licensing-29466/checkout?amount=20",
+    "dataToggle": null
+  },
+  {
+    "text": "Learn more about donating.",
+    "href": "https://opencollective.com/tabbycat",
+    "dataToggle": null
+  },
+  {
+    "text": "Timekept",
+    "href": "https://itunes.apple.com/app/apple-store/id1156065589?pt=814172&ct=Tabbycat%20Installs&mt=8",
+    "dataToggle": null
+  },
+  {
+    "text": "Debatekeeper",
+    "href": "https://play.google.com/store/apps/details?id=net.czlee.debatekeeper&referrer=utm_source%3Dtabbycat%26utm_medium%3Dfooter",
+    "dataToggle": null
+  },
+  {
+    "text": "Tabbycat Debate Association",
+    "href": "https://tabbycat-debate.org/",
+    "dataToggle": null
+  },
+  {
+    "text": "Language",
+    "href": "https://pratijjav19.calicotab.com/pratijja-v19/motions/statistics/#",
+    "dataToggle": "modal"
+  },
+  {
+    "text": "GitHub",
+    "href": "https://github.com/TabbycatDebate/tabbycat/",
+    "dataToggle": null
+  },
+  {
+    "text": "Documentation",
+    "href": "https://tabbycat.readthedocs.io/en/stable/",
+    "dataToggle": null
+  },
+  {
+    "text": "Support",
+    "href": "https://tabbycat.readthedocs.io/en/stable/about/support.html",
+    "dataToggle": null
+  },
+  {
+    "text": "Facebook",
+    "href": "https://www.facebook.com/TabbycatDebate/",
+    "dataToggle": null
+  },
+  {
+    "text": "Set Up A Copy",
+    "href": "https://calicotab.com/",
+    "dataToggle": null
+  },
+  {
+    "text": "Site Policies",
+    "href": "https://drive.google.com/drive/folders/1rtcyWmEj-yRExxD7tD6gh7WPJ644x_EQ",
+    "dataToggle": null
+  }
+]

@@ -1,0 +1,208 @@
+.motions-page {
+  min-height: 100vh;
+  background: #060d18;
+}
+
+.motions-header {
+  background: linear-gradient(135deg, #0a1628 0%, #0d1f35 50%, #0f2a47 100%);
+  padding: 80px 24px 48px;
+  border-bottom: 1px solid rgba(74, 143, 196, 0.12);
+}
+
+.motions-header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.motions-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.motions-search-wrap {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.motions-filters {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.motions-filter-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding-top: 8px;
+  white-space: nowrap;
+  min-width: 44px;
+}
+
+/* Motion list */
+.motions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+/* Motion card */
+.motion-card {
+  background: rgba(13, 31, 53, 0.8);
+  border: 1px solid rgba(74, 143, 196, 0.12);
+  border-radius: 12px;
+  padding: 20px 24px;
+  backdrop-filter: blur(8px);
+  transition: border-color 0.2s;
+}
+.motion-card:hover {
+  border-color: rgba(74, 143, 196, 0.25);
+}
+
+.motion-card-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.motion-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.motion-type-badge {
+  padding: 3px 10px;
+  background: rgba(74, 143, 196, 0.15);
+  color: #4a8fc4;
+  border: 1px solid rgba(74, 143, 196, 0.3);
+  border-radius: 6px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.motion-theme-badge {
+  padding: 3px 10px;
+  background: rgba(255,255,255,0.05);
+  color: rgba(255,255,255,0.4);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.motion-tournament-link {
+  font-size: 12px;
+  color: rgba(255,255,255,0.3);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.15s;
+  flex-shrink: 0;
+}
+.motion-tournament-link:hover {
+  color: #4a8fc4;
+  text-decoration: none;
+}
+
+.motion-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.motion-info-wrap {
+  margin-top: 14px;
+}
+
+.motion-info-btn {
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.35);
+  font-size: 12px;
+  font-family: var(--font-mono);
+  cursor: pointer;
+  padding: 0;
+  transition: color 0.15s;
+  letter-spacing: 0.04em;
+}
+.motion-info-btn:hover { color: #4a8fc4; }
+
+.motion-info-slide {
+  margin-top: 12px;
+  padding: 12px 16px;
+  background: rgba(255,255,255,0.04);
+  border-left: 3px solid rgba(74, 143, 196, 0.4);
+  border-radius: 0 8px 8px 0;
+  font-size: 14px;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+/* Skeleton */
+.skeleton-card {
+  background: rgba(13, 31, 53, 0.8);
+  border: 1px solid rgba(74, 143, 196, 0.08);
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+
+@media (max-width: 640px) {
+  .motion-card-top { flex-direction: column; }
+  .motion-text { font-size: 14px; }
+}
+
+.motions-type-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.motion-type-pill {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 1px solid rgba(74, 143, 196, 0.2);
+  background: rgba(13, 31, 53, 0.8);
+  color: rgba(255,255,255,0.45);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: var(--font-mono, monospace);
+  letter-spacing: 0.04em;
+  transition: all 0.15s;
+}
+
+.motion-type-pill:hover {
+  border-color: rgba(74, 143, 196, 0.4);
+  color: white;
+}
+
+.motion-type-pill.active {
+  background: rgba(74, 143, 196, 0.15);
+  border-color: #4a8fc4;
+  color: #4a8fc4;
+}
+
+.motions-result-count {
+  font-size: 12px;
+  color: rgba(255,255,255,0.25);
+  font-family: var(--font-mono, monospace);
+  letter-spacing: 0.04em;
+  margin-bottom: 16px;
+}

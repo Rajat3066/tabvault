@@ -1,0 +1,28 @@
+.dash-page { min-height: 100vh; background: var(--bg); padding: 40px 24px; }
+.dash-inner { max-width: 720px; margin: 0 auto; }
+.dash-back { display: inline-block; font-size: 13px; color: var(--text-secondary); margin-bottom: 24px; text-decoration: none; }
+.dash-back:hover { color: var(--accent); text-decoration: none; }
+.dash-auth { padding: 48px; text-align: center; }
+.google-btn { display: inline-flex; align-items: center; gap: 10px; padding: 11px 24px; background: white; border: 1px solid var(--border); border-radius: 8px; font-size: 14px; font-weight: 500; font-family: inherit; cursor: pointer; box-shadow: var(--shadow); transition: box-shadow 0.15s; }
+.google-btn:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
+.dash-header { display: flex; align-items: center; gap: 16px; padding: 20px 24px; margin-bottom: 28px; }
+.dash-avatar { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; }
+.dash-name { font-weight: 600; font-size: 16px; }
+.dash-email { font-size: 13px; color: var(--text-secondary); }
+.dash-logout { margin-left: auto; padding: 6px 14px; border: 1px solid var(--border); border-radius: 6px; background: none; font-size: 13px; cursor: pointer; font-family: inherit; color: var(--text-secondary); transition: all 0.15s; }
+.dash-logout:hover { border-color: var(--loss); color: var(--loss); }
+.dash-section-title { font-size: 20px; font-weight: 700; margin-bottom: 16px; }
+.saved-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; }
+.saved-card { padding: 18px 20px; }
+.saved-card-main { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; }
+.saved-name { font-size: 16px; font-weight: 600; margin-bottom: 6px; }
+.saved-note { font-size: 13px; color: var(--text-secondary); font-style: italic; margin-top: 6px; }
+.saved-actions { display: flex; gap: 8px; align-items: center; flex-shrink: 0; }
+.saved-remove { width: 30px; height: 30px; border: 1px solid var(--border); border-radius: 6px; background: none; cursor: pointer; font-size: 12px; color: var(--text-muted); transition: all 0.15s; }
+.saved-remove:hover { border-color: var(--loss); color: var(--loss); }
+.role-badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+.role-debater { background: #eff6ff; color: #2563eb; }
+.role-adjudicator { background: #fef3c7; color: #d97706; }
+.role-orgcom { background: #f0fdf4; color: #16a34a; }
+.dash-browse-btn { display: inline-block; padding: 10px 24px; background: var(--accent); color: white; border-radius: 8px; font-weight: 600; font-size: 14px; text-decoration: none; }
+.dash-browse-btn:hover { opacity: 0.9; text-decoration: none; }
