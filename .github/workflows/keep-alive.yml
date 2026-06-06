@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Ping Render
         run: |
-          curl --fail https://YOUR-RENDER-URL.onrender.com/api/tournaments || echo "Ping failed but continuing"
+          curl --fail https://tabvault-5dkp.onrender.com/api/tournaments || echo "Ping failed but continuing"
