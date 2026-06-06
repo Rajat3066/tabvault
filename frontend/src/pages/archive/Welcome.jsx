@@ -31,14 +31,14 @@ export default function Welcome() {
             </h1>
 
             {/* TabVault notice */}
-            <div className="card" style={{ padding: '14px 20px', marginBottom: 16, display: 'flex', alignItems: 'center', gap: 12, background: 'var(--accent-light)', borderColor: 'var(--accent)', overflow: 'hidden' }}>
+            <div className="card" style={{ padding: '14px 20px', marginBottom: 16, display: 'flex', alignItems: 'flex-start', gap: 12, background: 'var(--accent-light)', borderColor: 'var(--accent)' }}>
               <span style={{ fontSize: 18, flexShrink: 0 }}>🗄️</span>
               <div style={{ minWidth: 0 }}>
                 <div style={{ fontWeight: 600, fontSize: 13, color: 'var(--accent)' }}>TabVault Archive</div>
-                <div style={{ fontSize: 13, color: 'var(--text-secondary)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                  This is a permanent archive.
+                <div style={{ fontSize: 13, color: 'var(--text-secondary)', wordBreak: 'break-all', whiteSpace: 'normal' }}>
+                  This is a permanent archive of this tournament.
                   {t.original_url && (
-                    <> Original: <a href={t.original_url} target="_blank" rel="noreferrer" style={{ overflow: 'hidden', textOverflow: 'ellipsis' }}>{t.original_url}</a></>
+                    <> Original tab: <a href={t.original_url} target="_blank" rel="noreferrer">{t.original_url}</a></>
                   )}
                 </div>
               </div>
