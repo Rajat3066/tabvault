@@ -25,3 +25,67 @@
 .submit-guide-title { font-weight: 600; font-size: 13px; margin-bottom: 10px; }
 .submit-guide ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
 .submit-guide li { font-size: 13px; color: var(--text-secondary); }
+.scrape-progress {
+  background: var(--accent-light);
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.scrape-progress-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: var(--accent);
+}
+
+.scrape-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  flex-shrink: 0;
+}
+
+.scrape-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.scrape-step {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  transition: all 0.3s;
+}
+
+.scrape-step.done { color: var(--win); }
+.scrape-step.active { color: var(--accent); font-weight: 600; }
+.scrape-step.pending { color: var(--text-muted); }
+
+.scrape-step-icon {
+  font-size: 14px;
+  width: 16px;
+  text-align: center;
+  animation: none;
+}
+
+.scrape-step.active .scrape-step-icon {
+  display: inline-block;
+  animation: spin 1s linear infinite;
+}
+
+.scrape-note {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-style: italic;
+}
