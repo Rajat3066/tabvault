@@ -174,7 +174,8 @@ async function scrapeTournament(rawUrl) {
 
   const browser = await puppeteer.launch({
   headless: 'new',
-  executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || null,
+  executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || 
+    '/opt/render/.cache/puppeteer/chrome/linux-149.0.7827.22/chrome-linux64/chrome',
   args: [
     '--no-sandbox',
     '--disable-setuid-sandbox',
