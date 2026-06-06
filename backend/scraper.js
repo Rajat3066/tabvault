@@ -1,5 +1,7 @@
 const puppeteer = require('puppeteer')
 const db = require('./db')
+const { execSync } = require('child_process')
+
 
 function parseUrl(rawUrl) {
   const url = new URL(rawUrl)
@@ -169,23 +171,32 @@ function toInt(val) {
 }
 
 async function scrapeTournament(rawUrl) {
+  // Install chrome if not found
+  try {
+    execSync('npx puppeteer browsers install chrome', { 
+      stdio: 'inherit',
+      timeout: 120000 
+    })
+  } catch (e) {
+    console.log('Chrome install attempt:', e.message)
+  }
+
   const { subdomain, slug } = parseUrl(rawUrl)
   const base = baseUrl(subdomain, slug)
 
   const browser = await puppeteer.launch({
-  headless: 'new',
-  executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || 
-    '/opt/render/.cache/puppeteer/chrome/linux-149.0.7827.22/chrome-linux64/chrome',
-  args: [
-    '--no-sandbox',
-    '--disable-setuid-sandbox',
-    '--disable-dev-shm-usage',
-    '--disable-gpu',
-    '--no-first-run',
-    '--no-zygote',
-    '--single-process',
-  ],
-})
+    headless: 'new',
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-gpu',
+      '--no-first-run',
+      '--no-zygote',
+      '--single-process',
+      '--disable-extensions',
+    ],
+  })
 
   let tournament = null
   let tid = null
