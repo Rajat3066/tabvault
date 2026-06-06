@@ -89,3 +89,13 @@
   color: var(--text-muted);
   font-style: italic;
 }
+
+@media (max-width: 480px) {
+  .submit-input-wrap {
+    flex-direction: column;
+  }
+  
+  .submit-btn {
+    width: 100%;
+  }
+}
